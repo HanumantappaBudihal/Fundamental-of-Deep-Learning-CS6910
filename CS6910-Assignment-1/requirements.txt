@@ -1,0 +1,5 @@
+numpy==1.22.1
+wandb==0.12.10
+tqdm
+tensorflow
+matplotlib
