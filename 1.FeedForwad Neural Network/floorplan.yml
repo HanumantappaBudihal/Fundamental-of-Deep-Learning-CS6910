@@ -1,0 +1,11 @@
+TensorKit
+    |
+    +---- Activations: sigmoid, tanh, relu, mish, swish, softmax [with dervatives]
+    |
+    +---- Losses: mean_squared_error, binary_crossentropy, categorical_crossentropy [with derivatives]
+    |
+    +---- Layers: Dense layer which performs f(Wx + B) and stores activations, pre-activations and gradients
+    |
+    +---- Optimizers: SGD (momentum, nesterov), Adagrad, RMSprop, Adam, Nadam
+    |
+    +---- Models: Sequential architecture which uses all the above classes to build a concrete DNN
